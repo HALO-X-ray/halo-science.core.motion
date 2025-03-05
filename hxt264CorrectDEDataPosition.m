@@ -25,7 +25,5 @@ function deDataArrayCorrected = hxt264CorrectDEDataPosition(deDataArray, correct
     % Reassign position
     deDataArrayCorrected = deDataArray;
     deDataArrayCorrected(:,1:2) = probePositionCorrected;
-
-    disp(prefix("PREPROCESING") + "Probe positional reporting corrected by " + correctionDelayMilliseconds + "ms");
     
 end
